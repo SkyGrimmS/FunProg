@@ -10,7 +10,9 @@ data class ProductCard(
     @SerialName("product_category") val productCategory: ProductCategories,
     @SerialName("product_brand") val productBrand:String,
     @SerialName("product_rating") val productRating:Float,
-    @SerialName("product_stock") val productStock:Float,
-    @SerialName("color") val color:String
+    @SerialName("product_availability") val productStock:Boolean,
+    @SerialName("product_color") val color:String,
+    @SerialName("id") val id:Int
+
 ) {
 }

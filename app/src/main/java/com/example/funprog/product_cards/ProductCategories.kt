@@ -9,5 +9,5 @@ enum class ProductCategories (val title:String){
     @SerialName("Clothing") CLOTHING(title = "Clothing"),
     @SerialName("Home Decor") HOME_DECOR(title = "Home Decor"),
     @SerialName("Beauty") BEAUTY(title = "Beauty"),
-    @SerialName("Toys") TOYS(title = "Toys")
+    @SerialName("Sports") SPORTS(title = "Sports")
 }
