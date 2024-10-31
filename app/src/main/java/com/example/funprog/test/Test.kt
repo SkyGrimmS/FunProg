@@ -1,9 +1,16 @@
 package com.example.funprog.test
 
+var age:Int? = 12
 fun main() {
-    println(sum(5,6))
+    val result = age?.let {
+        if (it >= 18){
+            "You are an adult"
+        }else{
+            "You will be an adult in ${18- it}"
+        }
+    }
+    result?.let {
+        println(result)
+    }
 }
 
-fun sum(a:Int, b:Int):Int{
-    return a+b
-}
